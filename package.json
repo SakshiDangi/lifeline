@@ -33,6 +33,7 @@
     "react-email": "2.1.1",
     "react-toastify": "^10.0.5",
     "rippleui": "^1.12.1",
+    "suspense": "^0.0.53",
     "tailwind-merge": "^2.2.2",
     "tailwindcss-animate": "^1.0.7"
   },

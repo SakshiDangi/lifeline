@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import Toast from "@/components/Toast";
+import { Suspense } from 'react'
+
 
 export default function AdminLogin() {
   const router = useRouter();
@@ -23,6 +25,7 @@ export default function AdminLogin() {
     }
   };
   return (
+    <Suspense>
     <div className="h-screen w-screen flex justify-center items-center">
       <Toast />
       <div className="w-[500px] shadow-md rounded-lg p-5">
@@ -62,5 +65,6 @@ export default function AdminLogin() {
         </form>
       </div>
     </div>
+    </Suspense>
   );
 }

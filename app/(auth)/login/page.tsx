@@ -7,6 +7,8 @@ import axios from "axios";
 import { signIn } from "next-auth/react";
 import Image from "next/image";
 import Toast from "@/components/Toast";
+import { Suspense } from 'react'
+
 
 export default function SignInOne() {
   const searchParam = useSearchParams();
@@ -66,6 +68,7 @@ export default function SignInOne() {
   };
 
   return (
+    <Suspense>
     <section>
       <Toast />
       <div className="grid grid-cols-1 lg:grid-cols-2 h-screen">
@@ -219,5 +222,6 @@ export default function SignInOne() {
         </div>
       </div>
     </section>
+    </Suspense>
   );
 }
