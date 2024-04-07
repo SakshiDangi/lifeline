@@ -38,7 +38,7 @@ export default function ForgotPassword() {
         <div className="w-[500px] p-5 rounded-lg shadow-lg">
           <h1 className="text-2xl font-bold">Forgot Passowrd ?</h1>
           <p>
-            Dont worry it happens. just enter your email below and we will send
+            No need to worry it happens. just enter your email below and we will send
             an email to you.
           </p>
           <form onSubmit={submit}>

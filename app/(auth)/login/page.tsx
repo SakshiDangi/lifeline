@@ -95,7 +95,7 @@ export default function SignInOne() {
               Login
             </h2>
             <p className="mt-2 text-base text-gray-600">
-              Dont have an account?
+              Do you not have an account?
               <Link
                 href="/register"
                 title=""
