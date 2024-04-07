@@ -13,11 +13,11 @@ import {
     return (
       <div className="flex justify-center items-center px-10 pt-10 flex-col">
         <h1>Hello Admin How are you </h1>
-        <h1 className="text-sm font-bold">
-          {session && JSON.stringify(session)}
-        </h1>
+        {/* <h1 className="text-sm font-bold"> */}
+          {/* {session && JSON.stringify(session)} */}
+        {/* </h1> */}
   
-        <SignoutButton type="Admin" />
+        {/* <SignoutButton type="Admin" /> */}
       </div>
     );
   }

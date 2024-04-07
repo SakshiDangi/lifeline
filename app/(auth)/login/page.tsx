@@ -7,7 +7,7 @@ import axios from "axios";
 import { signIn } from "next-auth/react";
 import Image from "next/image";
 import Toast from "@/components/Toast";
-import { Suspense } from 'react'
+import { Suspense } from 'react';
 
 
 export default function SignInOne() {
@@ -74,9 +74,9 @@ export default function SignInOne() {
       <div className="grid grid-cols-1 lg:grid-cols-2 h-screen">
         <div className="relative flex items-end px-4 pb-10 pt-60 sm:px-6 sm:pb-16 md:justify-center lg:px-8 lg:pb-24">
           <div className="absolute inset-0">
-            <img
+          <img
               className="h-full w-full  object-cover object-top"
-              src="https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80"
+              src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt=""
             />
           </div>
